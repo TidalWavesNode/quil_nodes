@@ -21,16 +21,15 @@ This repository contains a Bash script designed to automate the installation and
 
 1. **Clone the repository:**
     ```sh
-    git clone https://raw.githubusercontent.com/TidalWavesNode/quil_nodes/main/setup.sh
-    cd quilibrium_installer
+   wget https://raw.githubusercontent.com/TidalWavesNode/quil_nodes/main/setup.sh
     ```
 
 2. **Make the script executable:**
     ```sh
-    chmod +x quilibrium_installer.sh
+    chmod +x setup.sh
     ```
 
 3. **Run the script:**
     ```sh
-    sudo ./quilibrium_installer.sh
+    sudo ./setup.sh
     ```
