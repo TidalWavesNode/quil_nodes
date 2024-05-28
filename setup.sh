@@ -3,6 +3,14 @@
 # Define a marker file to indicate script progression
 MARKER_FILE="/root/quilibrium_installer_marker"
 
+# Function to update the host
+update_machine() {
+    echo "Updating the machine..."
+    sudo apt-get update
+    sudo apt-get upgrade -y
+    echo "Machine update complete."
+}
+
 # Function to run initial setup and reboot
 initial_setup() {
     wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/qnode_service_installer | bash
