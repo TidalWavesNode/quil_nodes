@@ -1,4 +1,4 @@
-# Quilibrium Installer Script
+# Quilibrium Node Setup/Config Script
 
 This repository contains a Bash script designed to automate the installation and setup of the Quilibrium node service. The script performs the following steps:
 
