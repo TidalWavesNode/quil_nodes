@@ -11,6 +11,14 @@ update_machine() {
     echo "Machine update complete."
 }
 
+# Function to install qClient
+install_qclient() {
+    echo "Installing qClient..."
+    cd ~/ceremonyclient/client
+    GOEXPERIMENT=arenas go build -o qclient main.go
+    echo "qClient installation complete."
+}
+
 # Function to run initial setup and reboot
 initial_setup() {
     wget --no-cache -O - https://raw.githubusercontent.com/lamat1111/quilibriumscripts/master/qnode_service_installer | bash
