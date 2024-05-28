@@ -10,12 +10,14 @@ This repository contains a Bash script designed to automate the installation and
 6. Checks the size of a specific configuration file (`keys.yml`).
 7. If the file size is 1252 bytes, it proceeds with further setup.
 8. If the file size is not 1252 bytes, it waits 5 minutes and checks again until the file size is correct.
+9. Installs the qClient
 
 ## Prerequisites
 
 - A Unix-based operating system (e.g., Ubuntu)
 - Internet access
 - Sufficient permissions to execute `sudo` commands
+- Go programming language installed
 
 ## Usage
 
