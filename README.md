@@ -21,7 +21,7 @@ This repository contains a Bash script designed to automate the installation and
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/quilibrium_installer.git
+    git clone https://raw.githubusercontent.com/TidalWavesNode/quil_nodes/main/setup.sh
     cd quilibrium_installer
     ```
 
