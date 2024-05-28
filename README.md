@@ -1,1 +1,2 @@
-# quil_nodes
+# Script to setup QUIL node on new host
+
